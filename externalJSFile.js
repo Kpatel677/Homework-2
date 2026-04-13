@@ -1,5 +1,5 @@
-function updateSalaryDisplay(val) {
-    document.getElementById("salaryVal").innerText = "$" + Number(val).toLocaleString();
+function updatefeelToday(val) {
+    document.getElementById("feelToday").innerText = "" + Number(val).toLocaleString();
 }
 
 function validatepassword() {
